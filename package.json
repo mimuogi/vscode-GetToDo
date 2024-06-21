@@ -16,6 +16,11 @@
       {
         "command": "vscode-gettodo.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "vscode-gettodo.askQuestion",
+        "category": "GetToDo",
+        "title": "Ask Question"
       }
     ]
   },
@@ -26,7 +31,7 @@
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "vscode-test"
-  },
+  }, 
   "devDependencies": {
     "@types/vscode": "^1.90.0",
     "@types/mocha": "^10.0.6",
